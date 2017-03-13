@@ -1,0 +1,49 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-mkdocs", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Welcome to MkDocs"
+        }, 
+        {
+            "location": "/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/#project-layout", 
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/README/", 
+            "text": "docstesting", 
+            "title": "README"
+        }, 
+        {
+            "location": "/README/#docstesting", 
+            "text": "", 
+            "title": "docstesting"
+        }, 
+        {
+            "location": "/vision/", 
+            "text": "Sergio Magalhaes Dias\n\n\nDarmstadt\n\n\n\n\n\n\nPython installation\n\n\n\n\n\n\nPandoc:\n\n\n\n\nwget https://github.com/jgm/pandoc/releases/download/1.19.2.1/pandoc-1.19.2.1-1-amd64.deb\nsudo dpkg -i pandoc-1.19.2.1-1-amd64.deb\n\n\n\n\n\n\npdf2htmlex:\n\n\nsudo apt install pdf2htmlex", 
+            "title": "Vision"
+        }, 
+        {
+            "location": "/vision/#sergio-magalhaes-dias", 
+            "text": "", 
+            "title": "Sergio Magalhaes Dias"
+        }, 
+        {
+            "location": "/vision/#darmstadt", 
+            "text": "Python installation    Pandoc:   wget https://github.com/jgm/pandoc/releases/download/1.19.2.1/pandoc-1.19.2.1-1-amd64.deb\nsudo dpkg -i pandoc-1.19.2.1-1-amd64.deb    pdf2htmlex:  sudo apt install pdf2htmlex", 
+            "title": "Darmstadt"
+        }
+    ]
+}
