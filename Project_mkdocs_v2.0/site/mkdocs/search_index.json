@@ -1,0 +1,49 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-mkdocs", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Welcome to MkDocs"
+        }, 
+        {
+            "location": "/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/#project-layout", 
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/README/", 
+            "text": "docstesting", 
+            "title": "README"
+        }, 
+        {
+            "location": "/README/#docstesting", 
+            "text": "", 
+            "title": "docstesting"
+        }, 
+        {
+            "location": "/vision/", 
+            "text": "VisionSpace\n\n\nThe script \nconverter.py\n allows you convert any docx file into a Markdown file and any PDF file into a Markdown, text and HTML file. \n\n\nSystem Requirement\n\n\n\n\n\n\nPython installation\n\n\n\n\n\n\nPandoc:\n\n\n\n\nwget https://github.com/jgm/pandoc/releases/download/1.19.2.1/pandoc-1.19.2.1-1-amd64.deb\nsudo dpkg -i pandoc-1.19.2.1-1-amd64.deb\n\n\n\n\n\n\n\n\npdf2htmlex:\n\n\n\n\nsudo apt install pdf2htmlex \n\n\n\n\n\n\n\n\npdfminer:\nDownload the source code through the following link and unpack it. \nhttps://pypi.python.org/packages/57/4f/e1df0437858188d2d36466a7bb89aa024d252bd0b7e3ba90cbc567c6c0b8/pdfminer-20140328.tar.gz#md5=dfe3eb1b7b7017ab514aad6751a7c2ea\nIn the pdfminer folder: \n\n\n\n\npython setup.py install\n\n\n\n\n\n\n\n\n\n\nNote:\n The files \nconverter.py\n and \nmain.py\n have to be in the same directory as well the folder \npdf2md", 
+            "title": "Vision"
+        }, 
+        {
+            "location": "/vision/#visionspace", 
+            "text": "The script  converter.py  allows you convert any docx file into a Markdown file and any PDF file into a Markdown, text and HTML file.", 
+            "title": "VisionSpace"
+        }, 
+        {
+            "location": "/vision/#system-requirement", 
+            "text": "Python installation    Pandoc:   wget https://github.com/jgm/pandoc/releases/download/1.19.2.1/pandoc-1.19.2.1-1-amd64.deb\nsudo dpkg -i pandoc-1.19.2.1-1-amd64.deb     pdf2htmlex:   sudo apt install pdf2htmlex      pdfminer:\nDownload the source code through the following link and unpack it. \nhttps://pypi.python.org/packages/57/4f/e1df0437858188d2d36466a7bb89aa024d252bd0b7e3ba90cbc567c6c0b8/pdfminer-20140328.tar.gz#md5=dfe3eb1b7b7017ab514aad6751a7c2ea\nIn the pdfminer folder:    python setup.py install      Note:  The files  converter.py  and  main.py  have to be in the same directory as well the folder  pdf2md", 
+            "title": "System Requirement"
+        }
+    ]
+}
