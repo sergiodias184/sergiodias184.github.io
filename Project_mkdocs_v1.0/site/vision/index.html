@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Vision - My Docs</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+	
+	<script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="..">My Docs</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                    <li >
+                        <a href="../README/">README</a>
+                    </li>
+                    <li class="active">
+                        <a href="./">Vision</a>
+                    </li>
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                    <li >
+                        <a rel="next" href="../README/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li class="disabled">
+                        <a rel="prev" >
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#documents-converter">Documents converter</a></li>
+            <li><a href="#system-requirement">System Requirement</a></li>
+            <li><a href="#docx">Docx</a></li>
+            <li><a href="#pdf">PDF</a></li>
+        <li class="main "><a href="#usage">Usage</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="documents-converter">Documents converter</h1>
+<p>The script <strong>converter.py</strong> allows you convert any docx file into a Markdown file and any PDF file into a Markdown, text and HTML file. </p>
+<h3 id="system-requirement">System Requirement</h3>
+<ul>
+<li>
+<p>Python installation</p>
+</li>
+<li>
+<p>Pandoc:</p>
+<blockquote>
+<p>wget https://github.com/jgm/pandoc/releases/download/1.19.2.1/pandoc-1.19.2.1-1-amd64.deb
+sudo dpkg -i pandoc-1.19.2.1-1-amd64.deb</p>
+</blockquote>
+</li>
+<li>
+<p>pdf2htmlex:</p>
+<blockquote>
+<p>sudo apt install pdf2htmlex </p>
+</blockquote>
+</li>
+<li>
+<p>pdfminer:
+Download the source code through the following link and unpack it. 
+https://pypi.python.org/packages/57/4f/e1df0437858188d2d36466a7bb89aa024d252bd0b7e3ba90cbc567c6c0b8/pdfminer-20140328.tar.gz#md5=dfe3eb1b7b7017ab514aad6751a7c2ea
+In the pdfminer folder: </p>
+<blockquote>
+<p>python setup.py install</p>
+</blockquote>
+</li>
+</ul>
+<blockquote>
+<p><strong>Note:</strong> The files <strong>converter.py</strong> and <strong>main.py</strong> have to be in the same directory as well the folder <strong>pdf2md</strong> </p>
+</blockquote>
+<h3 id="docx">Docx</h3>
+<p>The script creates a new folder with the file name, and there are the Markdown file and their images.</p>
+<h3 id="pdf">PDF</h3>
+<p>Sometimes PDF files have some restrictions, and the scrip starts to remove this restrictions and create a new file without them. The script also creates a folder with the file name and there are 3 files (Markdown,Text and HTML) and the extract images from the PDF.</p>
+<h1 id="usage"><strong>Usage</strong></h1>
+<p>After you downloaded the project:</p>
+<blockquote>
+<p>git clone https://github.com/visionspacetec/papper.git
+cd papper </p>
+</blockquote>
+<p>Just type: </p>
+<blockquote>
+<p>python converter.py  <code>&lt;dir&gt;</code></p>
+</blockquote>
+<p>where <strong><code>&lt;dir&gt;</code></strong> is the script input, that desfines the location containing the input files.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
